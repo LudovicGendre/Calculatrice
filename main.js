@@ -15,7 +15,7 @@
     var span = document.createElement('span');
 
     output.classList.add('cal-output');
-    span.textContent = '1000';
+    span.textContent = '6000';
     output.appendChild(span);
     container_1.appendChild(output);
 

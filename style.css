@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: bisque;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cal{
@@ -15,6 +18,8 @@ body{
 .cal .cal-button {
     height: 6em;
     width: 6em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
 
 }
 .cal .cal-button:hover{
