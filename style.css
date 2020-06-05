@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.cal{
+    vertical-align: top;
+    background-color: white;
+
+}
+
+.cal .cal-button {
+    height: 6em;
+    width: 6em;
+
+}
+.cal .cal-button:hover{
+    background-color: teal;
+    color: wheat;
+}
+
+.cal .cal-button.cal-Clear {
+    width: 18em;
+}
+
+.cal .cal-button.cal-0{
+    width: 12em;
+}
+
+.cal .cal-output {
+    display: flex;
+    border: 1px solid black;
+    height: 5em;
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.cal .cal-output span {
+    display: inline-flex;
+    align-items: flex-end;
+    font-size: 3em;
+}
