@@ -21,6 +21,18 @@
 
     var key = [
         ['Clear', '/'],
-        ['7', '8', '9', 'x']
-    ]
+        ['7', '8', '9', 'x'],
+        ['4', '5', '6','-'],
+        ['1','2','3','+'],
+        ['0',',','=']
+    ];
+    key.forEach(function (textList){
+        var div = document.createElement('div');
+        div.classList.add('row');
+        textList.forEach(function (text){
+            creatButton(text, "cal-button cal-" + text, div);
+    });
+    container_1.appendChild(div);
+
+    });
 }
