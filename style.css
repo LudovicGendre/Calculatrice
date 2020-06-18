@@ -5,13 +5,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
     font-family: 'Montserrat', sans-serif;
 }
 
 .cal{
+    display: inline-block;
     vertical-align: top;
-    background-color: white;
+    border: 1px solid black;
+
 
 }
 
@@ -20,6 +21,8 @@ body{
     width: 6em;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    background-color: wheat;
+    color: teal;
 
 }
 .cal .cal-button:hover{
@@ -41,6 +44,7 @@ body{
     height: 5em;
     text-align: right;
     flex-direction: row-reverse;
+    background-color: white;
 }
 
 .cal .cal-output span {
